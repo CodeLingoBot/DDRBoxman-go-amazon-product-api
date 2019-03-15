@@ -162,6 +162,8 @@ func (api AmazonProductAPI) CartClear(CartId, HMAC string) (string, error) {
 /*
 Cart get takes a CartID and HMAC that were returned when generating a cart
 Returns the contents of the specified cart
+*/Cart get takes a CartID and HMAC that were returned when generating a cart
+Returns the contents of the specified cart
 */
 func (api AmazonProductAPI) CartGet(CartId, HMAC string) (string, error) {
 
